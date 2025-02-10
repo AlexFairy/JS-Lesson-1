@@ -53,3 +53,7 @@ console.log("Is num1 greater than num2?",  num1 > num2);
 console.log("Is num1 not equal to num2?", num1 != num2);
 
 //Task 6: Apply logical operators
+let isPositive = num1 > 0 && num2 > 0;
+let isEven = num1 % 2 == 0 || 2 ==0;
+console.log("Are both numbers positive?", isPositive);
+console.log("Is at least one number even?", isEven);
